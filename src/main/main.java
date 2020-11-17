@@ -7,7 +7,7 @@ package main;
 
 /**
  *
- * @author ASUS
+ * @author 1119006 William Juniar
  */
 public class main {
 
