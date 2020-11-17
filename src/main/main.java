@@ -7,7 +7,7 @@ package main;
 
 /**
  *
- * @author 1119006 William Juniar
+ * @author 1119006 William Juniar test
  */
 public class main {
 
