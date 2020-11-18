@@ -12,6 +12,9 @@ package model;
 public class jurusan {
     private String kode,nama;
 
+    public jurusan(){
+    
+    }
     public jurusan(String kode, String nama) {
         this.kode = kode;
         this.nama = nama;
