@@ -5,9 +5,11 @@
  */
 package main;
 
+import view.MainMenu;
+
 /**
  *
- * @author 1119006 William Juniar
+ * @author ASUS
  */
 public class main {
 
@@ -15,7 +17,7 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        new MainMenu();
     }
     
 }

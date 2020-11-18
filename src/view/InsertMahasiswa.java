@@ -9,6 +9,6 @@ package view;
  *
  * @author ASUS
  */
-public class view {
+public class InsertMahasiswa {
     
 }
