@@ -38,17 +38,17 @@ public class MainMenu implements ActionListener {
         menu1.addActionListener(this);
      
         menu2 = new JButton("Lihat Data Semua Jurusan");
-        menu2.setBounds(525, 180, 400, 30);
+        menu2.setBounds(550, 180, 400, 30);
         menu2.setEnabled(true);
         menu2.addActionListener(this);
         
         menu3 = new JButton("Insert Data Mahasiswa Baru");
-        menu3.setBounds(480, 240, 400, 30);
+        menu3.setBounds(550, 240, 400, 30);
         menu3.setEnabled(true);
         menu3.addActionListener(this);
         
         menu4 = new JButton("Lihat Data Mahasiswa Per Jurusan");
-        menu4.setBounds(525, 300, 250, 30);
+        menu4.setBounds(550, 300, 250, 30);
         menu4.setEnabled(true);
         menu4.addActionListener(this);
         
