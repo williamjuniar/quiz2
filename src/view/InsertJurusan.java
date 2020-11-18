@@ -75,18 +75,20 @@ public class InsertJurusan implements ActionListener {
         String kode = this.kode.getText();
         String nama = this.nama.getText();
         if(e.getActionCommand().equals("Insert")){
-            //if(controller.insertJurusan(kode,nama)){
+            if(controller.insertJurusan(kode,nama)){
                 JOptionPane.showMessageDialog(null,"Data Berhasil Insert!");
                 new MainMenu();
                 frame.dispose();
             }else{
                 JOptionPane.showMessageDialog(null,"Data Gagal Insert!");
             }
-       // } else if(e.getActionCommand().equals("Main Menu")){
+        } else if(e.getActionCommand().equals("Main Menu")){
             new MainMenu();
             frame.dispose();
         } 
         
+   
     }
+}
     
 

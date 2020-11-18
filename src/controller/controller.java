@@ -57,7 +57,20 @@ public class controller {
         return (jurusan3);
     }
    
-    
+    public static boolean insertJurusan(String kode, String nama) {
+        conn.Connect();
+        String query = "INSERT INTO jurusan VALUES(?,?)";
+        try {
+            PreparedStatement stmt = conn.con.prepareStatement(query);
+            stmt.setString(1, kode);
+            stmt.setString(2, nama);
+            stmt.executeUpdate();
+            return (true);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return (false);
+        }
+    }
    
     
 }
